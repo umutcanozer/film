@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
     <link rel="shortcut icon" href="img/fav-iconn.png" type="image/x-icon">
 
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -17,7 +19,7 @@
 
         <div class="nav container">
             <a href="index.html" class="logo">
-                Film<span>Can</span>
+                TV<span>CAN</span>
             </a>
             <div class="search-box">
                 <input type="search" name="" id="search-input" placeholder="İstediğinizi arayın">
@@ -26,13 +28,309 @@
             <a href="#" class="user">
                 <img src="img/user.jpg" alt="" class="user-img">
             </a>
+            <div class="navbar">
+                <a href="#home" class="nav-link nav-active ">
+                    <i class='bx bx-home-smile' ></i>
+                    <span class="nav-link-title">Başlangıç</span>
+                </a>
+
+                <a href="#home" class="nav-link">
+                    <i class='bx bxl-sketch' ></i>
+                    <span class="nav-link-title">Popüler</span>
+                </a>
+
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-movie-play' ></i>
+                    <span class="nav-link-title">Film</span>
+                </a>
+
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-wallet-alt' ></i>
+                    <span class="nav-link-title">Dizi</span>
+                </a>
+
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-leaf' ></i>
+                    <span class="nav-link-title">Anime</span>
+                </a>
+            </div>
         </div>
     </header>
 
+    <section class="home container" id="home">
+        <img src="img/home-background.png" alt="" class="home-img">
+        <div class="home-text">
+            <h1 class="home-title">Black Adam</h1>
+            <p>Ekim 2022'de Sinemalarda!</p>
+            <a href="#" class="watch-btn">
+                <i class='bx bx-right-arrow' ></i>
+                <span>Tanıtımı izleyin</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="popular container" id="popular">
+        <div class="heading">
+            <h2 class="heading-title">Popüler</h2>
+            <div class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                   <div class="movie-box">
+                       <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                       <div class="box-text">
+                           <h2 class="movie-title">Doktor Strange: Multiverse Çılgınlığı</h2>
+                           <span class="movie-type">Aksiyon</span>
+                           <a href="Özetler/Doktor Strange.html" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow' ></i>
+                        </a>
+                       </div>
+                   </div> 
+                </div>
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-2.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Orman Gezisi</h2>
+                            <span class="movie-type">Aksiyon</span>
+                            <a href="google.com" class="watch-btn play-btn">
+                             <i class='bx bx-right-arrow' ></i>
+                         </a>
+                        </div>
+                    </div> 
+                 </div>
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-3.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Loki</h2>
+                            <span class="movie-type">Aksiyon</span>
+                            <a href="#" class="watch-btn play-btn">
+                             <i class='bx bx-right-arrow' ></i>
+                         </a>
+                        </div>
+                    </div> 
+                 </div>
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-4.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Squid Game</h2>
+                            <span class="movie-type">Kurgu</span>
+                            <a href="#" class="watch-btn play-btn">
+                             <i class='bx bx-right-arrow' ></i>
+                         </a>
+                        </div>
+                    </div> 
+                 </div>
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-5.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Falcon ve Kış Askeri</h2>
+                            <span class="movie-type">Aksiyon</span>
+                            <a href="#" class="watch-btn play-btn">
+                             <i class='bx bx-right-arrow' ></i>
+                         </a>
+                        </div>
+                    </div> 
+                 </div>
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-6.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Gintama</h2>
+                            <span class="movie-type">Aksiyon/Komedi</span>
+                            <a href="#" class="watch-btn play-btn">
+                             <i class='bx bx-right-arrow' ></i>
+                         </a>
+                        </div>
+                    </div> 
+                 </div>
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-7.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Jujutsu Kaisen</h2>
+                            <span class="movie-type">Aksiyon</span>
+                            <a href="#" class="watch-btn play-btn">
+                             <i class='bx bx-right-arrow' ></i>
+                         </a>
+                        </div>
+                    </div> 
+                 </div>
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-8.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Jojo</h2>
+                            <span class="movie-type">Aksiyon</span>
+                            <a href="#" class="watch-btn play-btn">
+                             <i class='bx bx-right-arrow' ></i>
+                         </a>
+                        </div>
+                    </div> 
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="movies container" id="movies">
+        <div class="heading">
+            <h2 class="heading-title">FİLMLER</h2>
+        </div>
+        <div class="movies-content">
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">John Wick</h2>
+                    <span class="movie-type">Aksiyon</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="img/movie-2.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Red Notice</h2>
+                    <span class="movie-type">Aksiyon/Komedi</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div> 
+            <div class="movie-box">
+                <img src="img/movie-3.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Shang-Chi</h2>
+                    <span class="movie-type">Aksiyon/Doğaüstü</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div> 
+            <div class="movie-box">
+                <img src="img/movie-4.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Hızlı ve Öfkeli</h2>
+                    <span class="movie-type">Aksiyon</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="movies container" id="movies">
+        <div class="heading">
+            <h2 class="heading-title">DİZİLER</h2>
+        </div>
+        <div class="movies-content">
+            <div class="movie-box">
+                <img src="img/popular-movie-6.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Hawkeye</h2>
+                    <span class="movie-type">Aksiyon</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="img/movie-2.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Moon knight</h2>
+                    <span class="movie-type">Aksiyon</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div> 
+            <div class="movie-box">
+                <img src="img/movie-3.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Mandalorian</h2>
+                    <span class="movie-type">Aksiyon/Uzay</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div> 
+            <div class="movie-box">
+                <img src="img/popular-movie-3.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Loki</h2>
+                    <span class="movie-type">Aksiyon</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="movies container" id="movies">
+        <div class="heading">
+            <h2 class="heading-title">ANİMELER</h2>
+        </div>
+        <div class="movies-content">
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Gintama</h2>
+                    <span class="movie-type">Aksiyon/Komedi</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div>
+            <div class="movie-box">
+                <img src="img/movie-2.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Attack on Titan</h2>
+                    <span class="movie-type">Aksiyon/Drama</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div> 
+            <div class="movie-box">
+                <img src="img/movie-3.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Saiki Kusuo</h2>
+                    <span class="movie-type">Komedi/Doğaüstü</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div> 
+            <div class="movie-box">
+                <img src="img/movie-4.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Grand Blue</h2>
+                    <span class="movie-type">Komedi</span>
+                    <a href="#" class="watch-btn play-btn">
+                     <i class='bx bx-right-arrow' ></i>
+                 </a>
+                </div>
+            </div> 
+        </div>
+    </section>
 
 
 
 
+
+
+
+
+    <script src="swiper-bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
