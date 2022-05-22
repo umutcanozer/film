@@ -163,6 +163,7 @@ header{
 .home-title{
     font-size: 2rem;
     font-weight: 600;
+    color: var(--body-color);
 }
 .home-text p{
     font-size: 0.938rem;
